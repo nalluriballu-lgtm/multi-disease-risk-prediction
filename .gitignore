@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.db
+datasets/raw/*
+!datasets/raw/.gitkeep
+saved_models/*
+!saved_models/.gitkeep
+reports/*
+!reports/.gitkeep
+node_modules/
+dist/
+*.joblib
+*.pkl
+.ipynb_checkpoints/
