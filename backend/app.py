@@ -2,7 +2,7 @@
 from pathlib import Path
 import joblib
 import pandas as pd
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException\nfrom fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from src.config import MODEL_DIR
 
